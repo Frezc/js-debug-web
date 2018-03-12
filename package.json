@@ -9,8 +9,10 @@
   "author": "",
   "license": "ISC",
   "homepage": "https://frezc.github.io/js-debug-web/",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  },
   "dependencies": {
-    "http-server": "^0.11.1",
     "monaco-editor": "^0.10.1"
   }
 }
