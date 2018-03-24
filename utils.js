@@ -6,8 +6,12 @@ define(function() {
   
   function arrayToLinkedList(arr) {
     if (arr.length > 0) {
-      return arr.slice(1)
-        .reduce((acc, cur) => acc.next = new ListNode(cur), new ListNode(arr[0]));
+      const head = new ListNode();
+      let iter = head;
+      arr.forEach(function(v) {
+        iter = iter.next = new ListNode(v);
+      })
+      return head.next;
     }
     return null;
   }
