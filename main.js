@@ -1,10 +1,11 @@
 require.config({ paths: { 'vs': 'monaco-editor/min/vs' }});
-require(['vs/editor/editor.main'], function() {
+require(['vs/editor/editor.main', 'utils'], function() {
   var editor = monaco.editor.create(document.getElementById('container'), {
     value: [
       'function x() {',
       '  console.log("Hello world!");',
       '}',
+      'x();'
     ].join('\n'),
     language: 'javascript',
     theme: 'vs-dark'
