@@ -1,24 +1,20 @@
 {
-  "name": "js-debug-web",
+  "name": "js-utils",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server -p 3000",
-    "build": "webpack"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frezc/js-debug-web.git"
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://frezc.github.io/js-debug-web/",
-  "devDependencies": {
-    "css-loader": "^0.28.10",
-    "html-webpack-plugin": "^3.0.6",
-    "http-server": "^0.11.1",
-    "style-loader": "^0.20.3",
-    "webpack": "^4.1.1",
-    "webpack-cli": "^2.0.12"
+  "bugs": {
+    "url": "https://github.com/Frezc/js-debug-web/issues"
   },
-  "dependencies": {
-    "monaco-editor": "^0.11.0"
-  }
+  "homepage": "https://github.com/Frezc/js-debug-web#readme",
+  "dependencies": {}
 }
