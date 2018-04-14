@@ -25,7 +25,8 @@ document.getElementById('exec').addEventListener('click', function () {
             y: sheetHeight - sprite.rect.y - sprite.rect.height + sprite.border.w,
             w: sprite.rect.width - sprite.border.x - sprite.border.z,
             h: sprite.rect.height - sprite.border.y - sprite.border.w
-          }
+          },
+          pivot: sprite.pivot
         }
       });
       jsonEditor.set({
